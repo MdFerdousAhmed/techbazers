@@ -1,0 +1,21 @@
+{
+  "name": "techbazer-ecommerce-platform",
+  "version": "1.0.0",
+  "description": "TechBazer — Next-Gen Full-Stack Tech & Electronics Superstore",
+  "scripts": {
+    "server": "cd server && npm run dev",
+    "client": "cd client && npm run dev",
+    "build:client": "cd client && npm run build",
+    "install:all": "npm --prefix server install && npm --prefix client install"
+  },
+  "keywords": [
+    "nextjs",
+    "express",
+    "mongodb",
+    "ecommerce",
+    "jwt",
+    "full-stack"
+  ],
+  "author": "Auspify Intern",
+  "license": "ISC"
+}
